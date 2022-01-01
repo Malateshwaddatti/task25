@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="api.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+<input type="text" name="" id="text">
+<button type="button" onclick="foo()" >Click me</button>
+    <!--
+<script>
+    
+function foo(){
+    var cc=document.getElementById("text").value;
+    console.log(cc);
+
+    async function getdata(){
+        let data=await fetch(`https://api.covid19api.com/total/dayone/country/${cc}`);
+        let datares=await data.json();
+        console.log(datares);
+        for (var i =0;i<datares.length;i++) {
+           // console.log(datares[i].Confirmed+" "+datares[i].Active+" "+datares[i].Deaths+" "+datares[i].Date);
+            console.log(datares[i].name);
+        }
+             
+        }
+    
+      
+  getdata();
+
+
+    
+      
+    }
+
+<input type="text" name="" id="text1">
+<button type="button" onclick="fol()" >Click me</button>-->
+<!---
+<script>
+    
+
+
+
+           function fol(){
+        var cc=document.getElementById("text1").value;
+        console.log(cc);
+
+        async function getdata(){
+           let data=await fetch(`https://api.jikan.moe/v3`);
+             let datares=await data.json();
+            console.log(datares);
+             for (var i =0;i<datares.length;i++) {
+           // console.log(datares[i].Anime series+" "+datares[i].Poster+" "+datares[i].Images+" "+datares[i].StartDate+" "+EndDate+" "+datares[i].Tyeps of series);
+            console.log(datares[i]);
+        }
+            
+
+        }
+        getdata();
+    }
+    </script>
+-->
+
+    
+    
+        
+
+
+    
+</body>
+</html>
